@@ -13,32 +13,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <body>
 
-    <!--NAVIGATION-->
-        <header class="navigation">
-            <div class="logoMenu">
-                <img class=logo src="Property 1=Default.png">
-            </div>
-       
-        <nav class="inline-block">
-            <ul class="menu">
-                <li class="inline-block"> WORK</li>
-                <li class="inline-block"> ABOUT</li>
-                <li class="inline-block"> RESUME</li>
-                <li class="inline-block"> CONTACT</li>
+<!--PRELOADER-->
+<div class="preloader">
+    <img class="loading" src="loading.png">
+</div>
+
+<!--NAVIGATION-->
+<header class="navigation">
+    <div class="logoMenu">
+        <img class=logo src="Property 1=Default.png">
+    </div>
+
+<nav class="inline-block">
+    <div class="container">
+      <ul>
+        <li> <a class="workNav" href="#">Work </a>
+            <ul class="submenuBlue">
+              <li ><a href="#" class="tittle">Coats for Colorado</a></li>
+              <li><a href="#" class="tittle">Sub'Eats</a></li>
+              <li><a href="#" class="tittle">Department of Energy</a></li>
+              <li><a href="#" class="tittle">Travelise</a></li>
             </ul>
-        </nav>
-        </header>
+          </li>
+        <li> <a class="aboutNav" href="#">About </a>
+          <ul class="submenuPink">
+            <li><a href="#" class="tittle">Background</a></li>
+            <li><a href="#" class="tittle">Sketches</a></li>
+            <li><a href="#" class="tittle">Photography</a></li>
+          </ul>
+        </li>
+        <li> <a class="resumeNav" href="#">Resume </a>
+            <ul class="submenuYellow">
+              <li><a href="#" class="tittle">Experience</a></li>
+              <li><a href="#" class="tittle">Education</a></li>
+              <li><a href="#" class="tittle">Skills</a></li>
+            </ul>
+          </li>
+        <li><a class="contactNav" href="#">Contact</a>
+            <ul class="submenuDarkpink">
+                <li><a href="#" class="tittle">Phone</a></li>
+                <li><a href="#" class="tittle">Education</a></li>
+              </ul>
+            </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-         <section class="heroImg">
-            <div class="content">
-                <img class="right" src="Mountains.png" width="800px" >
-                <h1>Hi, I'm Colette!</h1>
-                <p class="heroText">A french UX/UI Designer based in Denver.</p>
-                <button class="download">Download Resume</button>
-             </div>
-        </section>   
+<section class="heroImg">
+    <div class="content">
+        <img class="right" src="Mountains.png" width="800px" >
+        <h1>Hi, I'm Colette!</h1>
+        <p class="heroText">A french UX/UI Designer based in Denver.</p>
+        <button class="download">Download Resume</button>
+     </div>
+</section>   
 
-    <!--WORK SECTION-->
+
+<!--WORK SECTION-->
         <section>
             <h2>WORK</h2>
 
@@ -76,7 +108,7 @@
             </div>
         </section>
 
-    <!--SKILL SECTION-->
+<!--SKILL SECTION-->
    <section class="skillsSection">
         <h2>MY SKILLS</h2>
         <div class="skillsRectangles">
@@ -101,22 +133,25 @@
         </div>
    </section>
 
-    <!--FOOTER-->
-        <footer>
-            <section>
-                <div class="social">
-                    <div class="footerBlock">
+<!--FOOTER-->
+    <footer>
+        <section>
+            <div class="social">
+                <div class="footerBlock">
                     <img src="linkedin.png" width="40px">
-                    </div>
-                    <div class="footerBlock">
-                    <img src="gmail.png" width="40px">
-                    </div>
                 </div>
-            </section>
-        </footer>
+                <div class="footerBlock">
+                    <img src="gmail.png" width="40px">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
 
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="js/index.js"></script>
+
 
     </body>
 </html>
