@@ -88,126 +88,131 @@ menu {
     text-decoration: none;
   }
   
-  /*color of links on hover */
-  .workNav:hover {
-    background-color: #CEEEEA;
-    border-radius: 20px;
-  }
-  
-  .aboutNav:hover {
-    background-color: #F0D4D6;
-    border-radius: 20px;
-  }
-
-  .resumeNav:hover {
-    background-color: #F7D986;
-    border-radius: 20px;
-  }
-
-  .contactNav:hover {
-    background-color: #F7B9B8;
-    border-radius: 20px;
-  }
-  /*color to the active/current link */
-  .workNav a.active {
-    background-color: #CEEEEA;
-    border-radius: 20px;
-  }
-
-  .aboutNav a.active {
-    background-color: #F0D4D6;
-    border-radius: 20px;
-  }
-
-  .resumeNav a.active {
-    background-color: #F7D986;
-    border-radius: 20px;
-  }
-
-  .contactNav a.active {
-    background-color: #F7B9B8;
-    border-radius: 20px;
-  }
-
-
 /*NAVIGATION JQUERY*/
 nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    position: relative;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  nav ul li a {
-    color: rgb(0, 0, 0);
-    display: block;
-    font-size: 35px;
-    padding: 15px 14px;
-    transition: 0.3s linear;
-    text-decoration: none;
-  }
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
 
+nav ul li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 35px;
+  padding: 15px 14px;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
 
-  nav ul li ul {
-    display: none;
-    position: absolute;
-    width: 250px;
-  }
+nav ul li.workNav:hover { 
+  background: #ADE2DC; 
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
 
-  nav ul li ul li {
-    display: block;
+nav ul li.aboutNav:hover { 
+  background: #F7B9B8; 
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
 
-  }
-  
-  nav ul li ul li:first-child { border-top: none; }
-  
-  nav ul li ul li a {
-    display: block;
-    padding: 10px 14px;
-    width:300px;
-  }
-  
-  .submenuBlue {
-    font-family: 'Heebo', sans-serif;
-    text-align: left;
-    background: #F5FCFB;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-  }
+nav ul li.resumeNav:hover { 
+  background: #F7D986; 
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
 
-  .submenuPink {
-    font-family: 'Heebo', sans-serif;
-    text-align: left;
-    background: #FCF6F7;
-    border-top-right-radius: 8%;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-  }
+nav ul li.contactNav:hover { 
+  background: #F7B9B8; 
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
 
-  .submenuYellow {
-    font-family: 'Heebo', sans-serif;
-    text-align: left;
-    background: #FFFCF3;
-    border-top-right-radius: 8%;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-  }
+nav ul li ul {
+  display: none;
+  position: absolute;
+  width: 250px;
+}
 
-  .submenuDarkpink {
-    font-family: 'Heebo', sans-serif;
-    text-align: left;
-    background: #FEF5F5;
-    border-top-right-radius: 8%;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-  }
+nav ul li ul li {
+  display: block;
+}
 
-  .tittle {
-    font-size: 20px;
-  }
+nav ul li ul li:first-child { border-top: none; }
+
+nav ul li ul li a {
+  display: block;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.tittle {
+  font-size: 20px;
+}
+
+.submenuBlue {
+  background: #F5FCFB;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+.submenuBlue a:hover {
+  background: #ADE2DC;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+.submenuPink {
+  background: #FCF6F7;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.submenuPink a:hover {
+  background: #F0D4D6;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.submenuYellow {
+  background: #FFFCF3;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.submenuYellow a:hover {
+  background: #F7D986;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.submenuDarkpink {
+  background: #FEF5F5;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+.submenuDarkpink a:hover {
+  background: #F7B9B8;
+  border-top-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
 
   /*END NAVIGATION JQUERY*/
 
