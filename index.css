@@ -88,6 +88,10 @@ menu {
     text-decoration: none;
   }
   
+  a {
+    text-decoration: none; /* no underline */
+  }
+
 /*NAVIGATION JQUERY*/
 nav ul {
   margin: 0;
